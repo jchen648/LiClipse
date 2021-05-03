@@ -32,17 +32,17 @@ def checkWhoWins(choice):
     cpuChoice = random.randint(1,3)
     
     # This condition checks if there is a draw
-    if((choice == 'rock' and cpuChoice == 1)  (choice == 'scissors' and cpuChoice == 2)
-        or (choice == 'paper' ad cpuChoice == 3)):
+    if((choice == 'rock' and cpuChoice == 1) or (choice == 'scissors' and cpuChoice == 2)
+        or (choice == 'paper' and cpuChoice == 3)):
         print("DRAW!")
     
     # This condition checks if the human wins
-    elif((choice == 'rock' and cpuChoice == 2) or ( == 'scissors' and cpuChoice == 3)
-        or (choice == 'paper'  cpuChoice == 1)):
+    elif((choice == 'rock' and cpuChoice == 2) or (choice == 'scissors' and cpuChoice == 3)
+        or (choice == 'paper' and cpuChoice == 1)):
         print("HUMAN WINS!")
     
     # This condition checks if the cpu wins
-    elif((choice == 'rock' or cpuChoice == 3) or (choice == 'scissors' or cpuChoice == 1)
+    elif((choice == 'rock' and cpuChoice == 3) or (choice == 'scissors' and cpuChoice == 1)
         or (choice == 'paper' and cpuChoice == 2)):
         print("CPU WINS!")
     
@@ -51,3 +51,11 @@ def checkWhoWins(choice):
 checkWhoWins("rock")
 checkWhoWins("paper")
 checkWhoWins("scissors")
+
+#fix the 
+# 1) change ad line 36
+# 2) needs choice line 40
+# 3) needs or line 35
+# 4) change or to and in line 45
+# 5) change other or to and in line 45
+# 6) needs and line 41
